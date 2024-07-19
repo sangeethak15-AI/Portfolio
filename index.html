@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="Stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/604ce0c2de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/logo.png" class="logo" width="20%">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+
+        <div class="header-text">
+            <div class="header-image">
+                <img src="/images/top.jpg" class="image" width="150%"></div>
+            <p>Student/Fresher</p>
+            
+            <h1>Hi,I'm <span>Sangeetha</span></h1>
+            <a href="/images/Sangeetha_resume.pdf" download class="btn btn2">Download  CV</a>
+        </div>
+    </div>
+</div> 
+<!----------------------------------------------about------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mypic.jpg" width="450px" height="500px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p class="ni">Hello, I'm Sangeetha, a driven and enthusiastic individual with a passion for artificial intelligence and machine learning.
+                     Currently pursuing my education in B.Tech Artificial Intelligence and Data Science at Saveetha Engineering College.
+                     Additionally, I have delved into the world of full-stack development through coursework in Java Full Stack within my college curriculum. 
+                     This exposure has equipped me with a well-rounded skill set that spans both AI and full-stack development.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Strength')">Strength</p>
+                        <p class="tab-links" onclick="opentab('Weakness')">Weakness</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="Strength">
+                        <ul>
+                            <li><span>Adaptability</span></li>
+                            <li><span>Collaborative</span></li>
+                            <li><span>Empathy</span></li>
+                            <li><span>Effective Communication</span></li>
+                            <li><span>Continuous Learner</span></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Weakness">
+                        <ul>
+                            <li><span>Risk-Averse</span></li>
+                            <li><span>Impatience</span></li>
+                            <li><span>Perseveration</span></li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!---------------------------------------skills-------------------------------->
+<div id="skills">
+    <div id="skills-container">
+        <div class="container">
+            <h1 class="subtitle">Skills</h1>                   
+            <div class="skills_main">
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>80%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html" data-progress="80"></span>
+                    </div>
+                </div>
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>CSS</p>
+                        <P>75%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css" data-progress="75"></span>
+                    </div>
+                </div>
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>Java Script</p>
+                        <P>60%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="java" data-progress="60"></span>
+                    </div>
+                </div>
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>React jsx</p>
+                        <P>50%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="react" data-progress="50"></span>
+                    </div>
+                </div>
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>Python</p>
+                        <P>75%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="python" data-progress="75"></span>
+                    </div>
+                </div>
+                
+    
+                <div class="skill_bar animate">
+                    <div class="info">
+                        <p>C</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="c" data-progress="85"></span>
+                    </div>
+                </div>
+                <div class="skill_bar animate" >
+                    <div class="info">
+                        <p>Spring Boot</p>
+                        <P>50%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="springboot" data-progress="50"></span>
+                    </div>
+                </div>
+    
+                <div class="skill_bar animate" >
+                    <div class="info">
+                        <p>My SQL</p>
+                        <P>50%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="mysql" data-progress="50"></span>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>           
+<!-- -------------------------------------------portfolio---- -------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/workshop.jpg">
+                <div class="layer">
+                    <h3>Website Clone</h3>
+                    <p>Developed a functional Dribbble clone showcasing front-end skills with React and CSS, implementing key features to enhance user experience and interface design.</p>
+                    <a href="https://github.com/sangeethak15-AI/dribbble-clone?tab=readme-ov-file"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/intern.jpg">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>A portfolio project showcases my skills and achievements for opportunities.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>    
+            </div>
+            <div class="work">
+                <img src="images/certificates.jpg">
+                <div class="layer">
+                    <h3>Video Surveillance Person Detection</h3>
+                    <p>A project showcasing expertise in video surveillance with person detection.</p>
+                    <a href="https://github.com/sangeethak15-AI/MiniProject-Video-Surveillance-Person-Detection-and-Recognition"><i class="fa-solid fa-link"></i></a>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------contact--------------------------------------------- -- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <h1 class="subtitle">Contact Me</h1>
+            <div class="contact-left">
+                
+                <p> <i class="fa-regular fa-envelope"></i>sangeethak494@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+91 9952643232</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sangeetha-k-59982827a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sangeethak15-AI"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_.sangiii._/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Meassage" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sangeetha. All rights reserved.</p>
+    </div>
+</div>
+<!-- ----------------------js----------------------------   -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+    
+<script>
+    const scrollContainer = document.querySelector('#skills');
+    const skillBars = document.querySelectorAll('.animate-bar .bar span');
+
+    const animateSkillBars = () => {
+    const scrollPosition = scrollContainer.scrollTop;
+    skillBars.forEach(bar => {
+        const barHeight = bar.offsetHeight;
+        const barOffsetTop = bar.offsetTop;
+        const barProgress = (scrollPosition - barOffsetTop) / barHeight;
+
+        if (barProgress > 0 && barProgress <= 1) {
+        bar.style.width = `${barProgress * bar.dataset.progress}%`;
+        bar.style.transition = `width ${barProgress * 2}s`;
+        }
+    });
+};
+
+scrollContainer.addEventListener('scroll', animateSkillBars);
+
+// Call the function once to initialize the animations
+animateSkillBars();
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx4wyYeBIF5QvPaEyaFIGQVYIWwLNHR0yW1YhdGNXdorXqenl7T9NH1lPzrvT6_kYhH1g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML='Message sent successfully'
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>    
+
+
+</body>
+</html>
