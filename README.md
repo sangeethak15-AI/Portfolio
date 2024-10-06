@@ -6,3 +6,6 @@ The site includes animated skill bars, a navigation menu, and a contact form int
 
 ### Website Link:
 https://sangeethak-portfolio.netlify.app/
+
+### contacts excelsheet:
+https://docs.google.com/spreadsheets/d/1BRaaPQRLnFlnKRGi92z8bosLIbUgFE6hIKY47TZpeFg/edit?usp=sharing
